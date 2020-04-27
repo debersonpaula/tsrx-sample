@@ -1,0 +1,398 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match snapshot 1`] = `
+<App>
+  <HashRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <e
+        models={
+          Array [
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+          ]
+        }
+      >
+        <Dashboard>
+          <Wrapper>
+            <div
+              className="wrapper-0-0-5"
+            >
+              <Header>
+                <div
+                  className="pageHeader-0-0-1"
+                >
+                  TS.R.EX - Dashboard
+                </div>
+              </Header>
+              <Body>
+                <div
+                  className="flexbody-0-0-3"
+                >
+                  <Sidemenu>
+                    <ul
+                      className="sidemenu-0-0-2"
+                    >
+                      <li>
+                        <Link
+                          to="/"
+                        >
+                          <LinkAnchor
+                            href="#/"
+                            navigate={[Function]}
+                          >
+                            <a
+                              href="#/"
+                              onClick={[Function]}
+                            >
+                              Home
+                            </a>
+                          </LinkAnchor>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="/products"
+                        >
+                          <LinkAnchor
+                            href="#/products"
+                            navigate={[Function]}
+                          >
+                            <a
+                              href="#/products"
+                              onClick={[Function]}
+                            >
+                              Products
+                            </a>
+                          </LinkAnchor>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="/contact"
+                        >
+                          <LinkAnchor
+                            href="#/contact"
+                            navigate={[Function]}
+                          >
+                            <a
+                              href="#/contact"
+                              onClick={[Function]}
+                            >
+                              Contact
+                            </a>
+                          </LinkAnchor>
+                        </Link>
+                      </li>
+                    </ul>
+                  </Sidemenu>
+                  <Content>
+                    <div
+                      className="content-0-0-4"
+                    >
+                      <Routes>
+                        <withRouter(n)>
+                          <n
+                            history={
+                              Object {
+                                "action": "POP",
+                                "block": [Function],
+                                "createHref": [Function],
+                                "go": [Function],
+                                "goBack": [Function],
+                                "goForward": [Function],
+                                "length": 1,
+                                "listen": [Function],
+                                "location": Object {
+                                  "hash": "",
+                                  "pathname": "/",
+                                  "search": "",
+                                  "state": undefined,
+                                },
+                                "push": [Function],
+                                "replace": [Function],
+                              }
+                            }
+                            location={
+                              Object {
+                                "hash": "",
+                                "pathname": "/",
+                                "search": "",
+                                "state": undefined,
+                              }
+                            }
+                            match={
+                              Object {
+                                "isExact": true,
+                                "params": Object {},
+                                "path": "/",
+                                "url": "/",
+                              }
+                            }
+                          >
+                            <RouterHandler
+                              history={
+                                Object {
+                                  "action": "POP",
+                                  "block": [Function],
+                                  "createHref": [Function],
+                                  "go": [Function],
+                                  "goBack": [Function],
+                                  "goForward": [Function],
+                                  "length": 1,
+                                  "listen": [Function],
+                                  "location": Object {
+                                    "hash": "",
+                                    "pathname": "/",
+                                    "search": "",
+                                    "state": undefined,
+                                  },
+                                  "push": [Function],
+                                  "replace": [Function],
+                                }
+                              }
+                              location={
+                                Object {
+                                  "hash": "",
+                                  "pathname": "/",
+                                  "search": "",
+                                  "state": undefined,
+                                }
+                              }
+                              match={
+                                Object {
+                                  "isExact": true,
+                                  "params": Object {},
+                                  "path": "/",
+                                  "url": "/",
+                                }
+                              }
+                              router={
+                                RouterModel {
+                                  "itemModelCompleted": [Function],
+                                  "pathname": "/",
+                                  "productItem": ProductItemModel {
+                                    "completed": [Function],
+                                    "completedAsync": [Function],
+                                    "error": null,
+                                    "errorAsync": e {
+                                      "_isScalar": false,
+                                      "closed": false,
+                                      "hasError": false,
+                                      "isStopped": false,
+                                      "observers": Array [],
+                                      "thrownError": null,
+                                    },
+                                    "failed": [Function],
+                                    "failedAsync": [Function],
+                                    "finishAsync": e {
+                                      "_isScalar": false,
+                                      "closed": false,
+                                      "hasError": false,
+                                      "isStopped": false,
+                                      "observers": Array [],
+                                      "thrownError": null,
+                                    },
+                                    "finished": [Function],
+                                    "finishedAsync": [Function],
+                                    "getProduct": [Function],
+                                    "isCompleted": false,
+                                    "isFailed": false,
+                                    "isFinished": false,
+                                    "isLoading": false,
+                                    "loading": [Function],
+                                    "reset": [Function],
+                                    "response": null,
+                                    "responseAsync": e {
+                                      "_isScalar": false,
+                                      "closed": false,
+                                      "hasError": false,
+                                      "isStopped": false,
+                                      "observers": Array [],
+                                      "thrownError": null,
+                                    },
+                                  },
+                                  "routeChange": [Function],
+                                }
+                              }
+                            />
+                          </n>
+                        </withRouter(n)>
+                        <Switch>
+                          <Route
+                            component={[Function]}
+                            computedMatch={
+                              Object {
+                                "isExact": true,
+                                "params": Object {},
+                                "path": "/",
+                                "url": "/",
+                              }
+                            }
+                            exact={true}
+                            location={
+                              Object {
+                                "hash": "",
+                                "pathname": "/",
+                                "search": "",
+                                "state": undefined,
+                              }
+                            }
+                            path="/"
+                          >
+                            <PageHome
+                              history={
+                                Object {
+                                  "action": "POP",
+                                  "block": [Function],
+                                  "createHref": [Function],
+                                  "go": [Function],
+                                  "goBack": [Function],
+                                  "goForward": [Function],
+                                  "length": 1,
+                                  "listen": [Function],
+                                  "location": Object {
+                                    "hash": "",
+                                    "pathname": "/",
+                                    "search": "",
+                                    "state": undefined,
+                                  },
+                                  "push": [Function],
+                                  "replace": [Function],
+                                }
+                              }
+                              location={
+                                Object {
+                                  "hash": "",
+                                  "pathname": "/",
+                                  "search": "",
+                                  "state": undefined,
+                                }
+                              }
+                              match={
+                                Object {
+                                  "isExact": true,
+                                  "params": Object {},
+                                  "path": "/",
+                                  "url": "/",
+                                }
+                              }
+                            >
+                              <Welcome>
+                                <div
+                                  className="welcome"
+                                >
+                                  <h3>
+                                    Welcome to TSREX Sample Page
+                                  </h3>
+                                  <hr />
+                                  <p>
+                                    TSREX means:
+                                  </p>
+                                  <ul>
+                                    <li>
+                                      <b>
+                                        T
+                                      </b>
+                                      ype
+                                      <b>
+                                        S
+                                      </b>
+                                      cript
+                                      <ul>
+                                        <li>
+                                          Types
+                                        </li>
+                                        <li>
+                                          Decorators
+                                        </li>
+                                        <li>
+                                          interfaces
+                                        </li>
+                                        <li>
+                                          Full Object-Orientation
+                                        </li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      <b>
+                                        R
+                                      </b>
+                                      eact
+                                      <ul>
+                                        <li>
+                                          Containers
+                                        </li>
+                                        <li>
+                                          Components
+                                        </li>
+                                        <li>
+                                          Connections
+                                        </li>
+                                      </ul>
+                                    </li>
+                                    <li>
+                                      <b>
+                                        EX
+                                      </b>
+                                      Redux
+                                      <ul>
+                                        <li>
+                                          Redux-Store
+                                        </li>
+                                        <li>
+                                          State Management - Class Models
+                                        </li>
+                                        <li>
+                                          MVVM Architecture
+                                        </li>
+                                        <li>
+                                          Fully Typed and Decorated
+                                        </li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                                  <hr />
+                                  <p>
+                                    Use this project as playground to test functionalities of the TSREX stack.
+                                  </p>
+                                </div>
+                              </Welcome>
+                            </PageHome>
+                          </Route>
+                        </Switch>
+                      </Routes>
+                    </div>
+                  </Content>
+                </div>
+              </Body>
+            </div>
+          </Wrapper>
+        </Dashboard>
+      </e>
+    </Router>
+  </HashRouter>
+</App>
+`;
