@@ -1,0 +1,6 @@
+{
+  "extends": "./node_modules/tsrx/tslint.json",
+  "rules": {
+    "radix": false
+  }
+}

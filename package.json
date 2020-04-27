@@ -1,0 +1,33 @@
+{
+  "name": "tsx-react-sample",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsrx start ./react.config.js",
+    "build": "tsrx build ./react.config.js",
+    "test": "tsrx test ./react.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debersonpaula/tsx-react-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debersonpaula/tsx-react-sample/issues"
+  },
+  "homepage": "https://github.com/debersonpaula/tsx-react-sample#readme",
+  "dependencies": {
+    "exredux": "2.0.3",
+    "jss": "10.1.1",
+    "jss-plugin-camel-case": "10.1.1",
+    "jss-plugin-default-unit": "10.1.1",
+    "jss-plugin-nested": "10.1.1",
+    "jss-preset-default": "10.1.1",
+    "tsrx": "0.0.1-alpha.1"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.18.1"
+  }
+}
