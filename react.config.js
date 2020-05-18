@@ -1,8 +1,8 @@
 'use strict';
 
-var trsConfig = require('tsrx/tools/tsReactConfig').tsReactConfigValidator;
+var DefaultConfig = require('tsrx/tools').DefaultConfig;
 
-module.exports = trsConfig({
+module.exports = DefaultConfig({
   source: 'src',
   outputPath: 'dist',
   port: 8080,

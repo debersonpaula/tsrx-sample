@@ -1,7 +1,7 @@
 {
   "name": "tsrx-sample",
   "description": "TSRX Sample Application",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "scripts": {
     "start": "tsrx start ./react.config.js",
@@ -17,7 +17,7 @@
     "jss-plugin-default-unit": "10.1.1",
     "jss-plugin-nested": "10.1.1",
     "jss-preset-default": "10.1.1",
-    "tsrx": "0.0.1"
+    "tsrx": "0.1.0"
   },
   "devDependencies": {
     "axios-mock-adapter": "1.18.1"

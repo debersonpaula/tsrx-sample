@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import App from './App';
-import { reactHot } from 'tsrx/tools/reactHot';
+import { reactHot } from 'tsrx/tools';
 import './styles.css';
 
 function renderToDOM() {
