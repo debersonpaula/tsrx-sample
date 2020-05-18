@@ -3,7 +3,7 @@
 var DefaultConfig = require('tsrx/tools').DefaultConfig;
 
 module.exports = DefaultConfig({
-  source: 'src',
+  sourcePath: 'src',
   outputPath: 'dist',
   port: 8080,
   host: 'localhost',
