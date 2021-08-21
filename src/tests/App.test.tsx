@@ -1,17 +1,16 @@
-import * as React from 'react';
-import { mount, ReactWrapper } from 'enzyme';
+import React from 'react';
+import '@testing-library/jest-dom';
+import { render, screen } from '@testing-library/react';
 import App from '../App';
 
 describe('App', () => {
-  let rendered: ReactWrapper;
-
-  afterEach(() => {
-    rendered.unmount();
+  // -------------------------------------------------------------------------
+  beforeEach(() => {
+    render(<App />);
   });
-  // -------------------------------------------------------
-  it('should match snapshot', () => {
-    rendered = mount(<App />);
-    expect(rendered).toMatchSnapshot();
+  // -------------------------------------------------------------------------
+  it('should have text Welcome to TSREX Sample Page', () => {
+    expect(screen.getByText('Welcome to TSREX Sample Page')).toBeTruthy();
   });
-  // -------------------------------------------------------
+  // -------------------------------------------------------------------------
 });

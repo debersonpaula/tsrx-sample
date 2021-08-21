@@ -1,29 +1,32 @@
 'use strict';
 
-var DefaultConfig = require('tsrx/tools').DefaultConfig;
+const { DefaultConfig } = require('tsrx/tools');
 
 module.exports = DefaultConfig({
-  sourcePath: 'src',
-  outputPath: 'dist',
   port: 8080,
-  host: 'localhost',
-  nodeEnv: {
-    API_URL: 'https://reqres.in'
+  publicFolder: 'public',
+  configFile: 'src/config',
+  env: {
+    API_URL: 'https://reqres.in',
   },
-  htmlEnv: {
-  },
-  reactHotLoader: true,
   jest: {
-    coverageThreshold: {
+    coverageThreshold: JSON.stringify({
       global: {
-        branches: 50,
-        functions: 50,
+        branches: 5,
+        functions: 40,
         lines: 50,
+        statements: 50,
       },
-    },
-    updateSnapshot: true,
+    }),
+    verbose: true,
+    collectCoverageFrom: [
+      'src/**/*.{ts,tsx}',
+      '!src/bootstrap.tsx',
+      '!src/index.ts',
+      '!src/test/**/*',
+    ],
   },
   devServer: {
-    open: true
-  }
+    open: true,
+  },
 });

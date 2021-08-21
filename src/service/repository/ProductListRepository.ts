@@ -1,8 +1,9 @@
 import { http } from 'exredux';
 import { IProductsResult } from '../interfaces/IProductsResult';
 import { IProductResult } from '../interfaces/IProductResult';
+import config from '../../config';
 
-const API_URL = process.env.API_URL;
+const API_URL = config.API_URL;
 
 export class ProductListRepository {
   static ENDPOINT_GET_ALL = `${API_URL}/api/unknown`;

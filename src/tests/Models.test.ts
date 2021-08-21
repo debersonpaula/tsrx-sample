@@ -1,3 +1,4 @@
+import '@testing-library/jest-dom';
 import './mocks/http';
 import { ContactModel } from '../service/models/ContactModel';
 
