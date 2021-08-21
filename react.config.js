@@ -5,7 +5,7 @@ const { DefaultConfig } = require('tsrx/tools');
 module.exports = DefaultConfig({
   port: 8080,
   publicFolder: 'public',
-  configFile: 'src/config',
+  configFile: 'config.ts',
   env: {
     API_URL: 'https://reqres.in',
   },

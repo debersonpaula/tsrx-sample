@@ -7238,10 +7238,10 @@ tslib@^2.0.3:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
   integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
 
-tsrx@1.1.0-beta.12:
-  version "1.1.0-beta.12"
-  resolved "https://registry.yarnpkg.com/tsrx/-/tsrx-1.1.0-beta.12.tgz#31c00cc1ee8a04ba2081d9b648a13755ff7d27ad"
-  integrity sha512-oQ1ZNopRjaEqKXsgSbNlhwkJTyuNdkEihu7urqTwLGqoyTK7A+ZNLn8WpPN2qqYQ1v84m2Kf2pkWS/9Bb+e4YQ==
+tsrx@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/tsrx/-/tsrx-1.1.0.tgz#1a23ac28c46f1ef0160498c77bcd114e4510a8ac"
+  integrity sha512-TZvQM521awbo16v/NnWj6zetHnwKzMz5ae1Dca3q1VcPHKlkRYsTbWkO1n003/aPBtS59NEhfpU87Q0nr05Vlw==
   dependencies:
     "@babel/core" "7.15.0"
     "@babel/plugin-proposal-class-properties" "7.14.5"
